@@ -1,6 +1,6 @@
 # LTI Systems: Acoustic Convolution Simulator
 
-![Open In Colab](https://colab.research.google.com/github/OmerOzbektas/LTI-Acoustic-Convolution/blob/main/main.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OmerOzbektas/LTI-Acoustic-Convolution/blob/main/main.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![SciPy](https://img.shields.io/badge/SciPy-Signal_Processing-orange.svg)
 
