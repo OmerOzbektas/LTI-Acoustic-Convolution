@@ -42,7 +42,7 @@ No installation is required. Simply upload your `.wav` recording, execute the no
 Clone the repository:
 
 ```bash
-git clone https://github.com/SENIN_KULLANICI_ADIN/SENIN_REPO_ADIN.git
+git clone https://github.com/OmerOzbektas/LTI-Acoustic-Convolution
 cd lti-convolution-simulator
 ```
 
