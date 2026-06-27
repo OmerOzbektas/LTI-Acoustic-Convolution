@@ -1,6 +1,6 @@
 # LTI Systems: Acoustic Convolution Simulator
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SENIN_KULLANICI_ADIN/SENIN_REPO_ADIN/blob/main/Tutorial.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OmerOzbektas/LTI-Acoustic-Convolution/main.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![SciPy](https://img.shields.io/badge/SciPy-Signal_Processing-orange.svg)
 
@@ -14,15 +14,15 @@ Instead of using abstract signals like sine waves, this repository applies the m
 
 For a continuous-time LTI system, the output is obtained by convolving the input signal with the system's impulse response:
 
-[
+$$
 y(t)=\int_{-\infty}^{\infty}u(\tau)h(t-\tau)d\tau
-]
+$$
 
 where:
 
-* **(u(t))** is the input signal (your voice recording),
-* **(h(t))** is the impulse response of the acoustic environment,
-* **(y(t))** is the resulting reverberated audio.
+* **$u(t)$** is the input signal (your voice recording),
+* **$h(t)$** is the impulse response of the acoustic environment,
+* **$y(t)$** is the resulting reverberated audio.
 
 Since audio is stored as discrete samples, the continuous convolution integral is replaced with its discrete counterpart using **`scipy.signal.convolve`**.
 
@@ -42,7 +42,7 @@ No installation is required. Simply upload your `.wav` recording, execute the no
 Clone the repository:
 
 ```bash
-git clone https://github.com/SENIN_KULLANICI_ADIN/SENIN_REPO_ADIN.git
+git clone https://github.com/OmerOzbektas/LTI-Acoustic-Convolution.git
 cd lti-convolution-simulator
 ```
 
