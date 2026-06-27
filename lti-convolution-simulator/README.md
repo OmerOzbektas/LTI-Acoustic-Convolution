@@ -14,9 +14,9 @@ Instead of using abstract signals like sine waves, this repository applies the m
 
 For a continuous-time LTI system, the output is obtained by convolving the input signal with the system's impulse response:
 
-[
+$$
 y(t)=\int_{-\infty}^{\infty}u(\tau)h(t-\tau)d\tau
-]
+$$
 
 where:
 
