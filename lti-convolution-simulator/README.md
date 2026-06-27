@@ -20,9 +20,9 @@ $$
 
 where:
 
-* **(u(t))** is the input signal (your voice recording),
-* **(h(t))** is the impulse response of the acoustic environment,
-* **(y(t))** is the resulting reverberated audio.
+* **$u(t)$** is the input signal (your voice recording),
+* **$h(t)$** is the impulse response of the acoustic environment,
+* **$y(t)$** is the resulting reverberated audio.
 
 Since audio is stored as discrete samples, the continuous convolution integral is replaced with its discrete counterpart using **`scipy.signal.convolve`**.
 
